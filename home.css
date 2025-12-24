@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;      /* vertical centering */
+    height: 100vh;            /* FULL screen height */
+    padding: 0 100px;
+    margin: 0;
+}
+b {
+    font-size: 22px;   /* increase text size */
+    font-weight: bold;
+}
+/* Left section */
+.nav-center {
+    text-align: center;
+}
+/* Image circle */
+.profile-pic {
+    width: 260px;     /* increased from 180px */
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid black;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+}
+.menu {
+    margin-right: 100px;
+}
+/* Right section buttons */
+.menu a {
+    display: block;
+    margin: 12px 0;
+}
+button {
+    padding: 16px 28px;   /* bigger buttons */
+    font-size: 17px;
+    border-radius: 30px;
+}
+button:hover {
+    background: #0072ff;
+    color: palevioletred;
+    transform: scale(1.05);
+}
+
+

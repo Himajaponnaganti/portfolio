@@ -1,0 +1,73 @@
+/* BODY */
+body {
+    margin: 0;
+    padding-top: 120px;
+    background-color: #020a5c;  /* THIS is your main blue */
+    color: white;
+}
+
+
+
+/* HEADER */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #020a5c; /* SAME BLUE */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* NAV LINKS */
+.nav-center a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 600;
+}
+
+.nav-center a:hover {
+    color: #b3c7ff; /* light blue hover */
+}
+
+/* SKILLS TITLE */
+.skills-title {
+    display: none;
+}
+
+
+/* GRID LAYOUT */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 per row */
+    gap: 40px;
+    width: 90%;
+    margin: auto;
+}
+
+/* SKILL CARD */
+.skill-card {
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+
+.skill-card:hover {
+    transform: scale(1.05);
+}
+
+/* SKILL IMAGE */
+.skill-card img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+

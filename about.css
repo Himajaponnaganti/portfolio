@@ -1,0 +1,62 @@
+body{
+    margin:0px;
+    padding: 0px;
+
+}
+navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:aqua;
+    align-items: center;
+}
+.nav-left{
+    font-size:30px;
+    font-weight:bold;
+    color: crimson;
+}
+.nav-right{
+    display: flex;
+    gap: 20px;
+    color: crimson;
+}
+.nav-right span{
+    font-size:  20px;
+    font-weight:bold;
+}
+.nav-right span:hover{
+    cursor:grabbing;
+    text-decoration:underline;
+}
+.profile-card{
+    height: 300px;
+    /*border:1px solid black;*/
+    display: flex;
+    margin:20px;
+    padding: 10px;
+}
+.profile-pic{
+    width:35%;
+    /*border:1px solid black;*/
+    height:100%;
+    display:flex;
+    justify-content:center;
+}
+.summary{
+    width:65%;
+    height:100%;
+    /*display:flex;
+    justify-content:center;
+    align-items:center;*/
+    text-align:justify;
+}
+.info-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;  /* Moves it to the RIGHT */
+}
+
+.personal-info{
+    text-align: center;           /* Keeps text normal */
+    justify-content: center;
+}
+
